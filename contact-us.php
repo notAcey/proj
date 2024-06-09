@@ -52,7 +52,6 @@ if (isset($_POST['send'])) {
     else {
         $error = "Something Went Wrong. Please Try Again";
     }
-
 }
 ?>
 <!DOCTYPE HTML>
@@ -163,17 +162,17 @@ if (isset($_POST['send'])) {
         <h3> </h3>
         <div class="contact_detail">
               <?php 
-$pagetype=$_GET['type'];
-$sql = "SELECT Address,EmailId,ContactNo from tblcontactusinfo";
-$query = $dbh -> prepare($sql);
-$query->bindParam(':pagetype',$pagetype,PDO::PARAM_STR);
-$query->execute();
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-$cnt=1;
-if($query->rowCount() > 0)
-{
-foreach($results as $result)
-{ ?>
+                $pagetype=$_GET['type'];
+                $sql = "SELECT Address,EmailId,ContactNo from tblcontactusinfo";
+                $query = $dbh -> prepare($sql);
+                $query->bindParam(':pagetype',$pagetype,PDO::PARAM_STR);
+                $query->execute();
+                $results=$query->fetchAll(PDO::FETCH_OBJ);
+                $cnt=1;
+                if($query->rowCount() > 0)
+                {
+                foreach($results as $result)
+                { ?>
           <ul>
             <li>
               <div class="icon_wrap"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
