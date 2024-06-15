@@ -2360,7 +2360,7 @@ form .slider.slider-horizontal {
 /* 5. Inner-Page-Heading-Section */
 
 .page-header {
-  background-image: url("../images/listing-page-header-img.jpg");
+  background-image: url("../images/listing-page-header-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   border: 0 none;
@@ -3054,7 +3054,7 @@ table.info-tabel tr td {
 /* 10. Contact-Us-Page */
 
 .contactus_page {
-	background-image:url(../images/contact-page-header-img.jpg);
+	background-image:url(../images/contact-page-header-img.png);
 }
 
 .contact_form {
@@ -3808,7 +3808,7 @@ table.info-tabel tr td {
 /* 16. Profile-page */
 
 .profile_page {
-	background-image:url(../images/profile-page-header-img.jpg);
+	background-image:url(../images/profile-page-header-img.png);
 }
 
 .inner_pages {
